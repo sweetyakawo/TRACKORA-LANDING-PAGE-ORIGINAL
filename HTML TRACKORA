@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trackora - Smart Business Tracking</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <div class="max-w-6xl mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold text-center mb-4">Track Everything. Sell Smarter.</h1>
+    <p class="text-center text-lg mb-10">Trackora automates inventory, expiry, sales, and profit tracking for growing businesses.</p>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="p-6 border rounded-xl shadow-sm">
+        <h2 class="text-xl font-semibold mb-2">📋 Daily Summary</h2>
+        <p>Track items edited, quantities, and activities in real time.</p>
+      </div>
+      <div class="p-6 border rounded-xl shadow-sm">
+        <h2 class="text-xl font-semibold mb-2">🛍️ Smart Inventory & Sales</h2>
+        <p>Sell from a live product list, calculate cost, and charge instantly.</p>
+      </div>
+      <div class="p-6 border rounded-xl shadow-sm">
+        <h2 class="text-xl font-semibold mb-2">📈 Sales Analytics</h2>
+        <p>Know your profit per item with automatic cost-to-sale tracking.</p>
+      </div>
+      <div class="p-6 border rounded-xl shadow-sm">
+        <h2 class="text-xl font-semibold mb-2">📍 Multi-location Stores</h2>
+        <p>Manage stock and sales across all your stores with ease.</p>
+      </div>
+      <div class="p-6 border rounded-xl shadow-sm">
+        <h2 class="text-xl font-semibold mb-2">⏰ Expiry Alerts</h2>
+        <p>Automatic reminders 90, 60, and 30 days before items expire.</p>
+      </div>
+      <div class="p-6 border rounded-xl shadow-sm">
+        <h2 class="text-xl font-semibold mb-2">📉 Low Stock Notifications</h2>
+        <p>Get email alerts before stock runs out so you're never caught off guard.</p>
+      </div>
+    </div>
+
+    <div class="mt-16 text-center">
+      <h3 class="text-2xl font-bold mb-4">Be among the first to use Trackora</h3>
+      <p class="mb-6 text-gray-600">Join our early access list. First 100 businesses get a free onboarding call.</p>
+      <form class="flex flex-col sm:flex-row justify-center gap-4">
+        <input type="email" placeholder="Your email address" class="px-4 py-2 border rounded-lg w-full sm:w-auto" required />
+        <button class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">Join Waitlist</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
